@@ -59,3 +59,21 @@ IP地址: 101.42.237.144       port端口号: 7890       地址: SSL高匿_北�
 IP地址: 101.37.31.191        port端口号: 80         地址: 高匿_浙江省杭州市阿里云    
 IP地址: 219.129.167.82       port端口号: 2222       地址: 高匿_广东省汕尾市电信     
 
+## 🔧 Configuration
+Headers: The script uses a default User-Agent to simulate browser requests. You can modify it in the headers dictionary.
+Target Pages: The script is set to scrape pages 1-7 by default. You can modify this range in the for loop.
+
+## 📖 Examples of Extension
+Modify the script to scrape other proxy websites.
+Save the output to a database instead of a .txt file.
+Integrate the proxy pool into a larger project.
+
+## 🛡️ Common Issues and Solutions
+Connection Error: Ensure the target website is accessible and not blocking your requests.
+Empty Results: Double-check the XPath expressions for extracting data.
+
+## 📃 License
+This project is licensed under the MIT License. Feel free to use and modify it for your projects.
+
+## ✨ Acknowledgments
+Thanks to IP3366.net for providing free proxy data.
