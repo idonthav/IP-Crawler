@@ -47,6 +47,7 @@ This project is designed to:
    venv\Scripts\activate       # Windows
 
 4. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
 ## 🏃 Usage
