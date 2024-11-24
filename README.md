@@ -31,3 +31,31 @@ This project is designed to:
 ---
 
 
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/IP-Crawler.git
+   cd IP-Crawler
+
+2. Create a virtual environment (optional but recommended):
+  python -m venv venv
+  source venv/bin/activate    # macOS/Linux
+  venv\Scripts\activate       # Windows
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+## 🏃 Usage
+Open the ip_crawler.py file and customize the target website or number of pages if needed.
+
+Run the script:
+python ip_crawler.py
+
+View the results in the IP_agent.txt file, which will look like this:
+IP地址: 101.42.237.144       port端口号: 7890       地址: SSL高匿_北京市腾讯云       
+IP地址: 101.37.31.191        port端口号: 80         地址: 高匿_浙江省杭州市阿里云    
+IP地址: 219.129.167.82       port端口号: 2222       地址: 高匿_广东省汕尾市电信     
+
