@@ -37,20 +37,21 @@ This project is designed to:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/IP-Crawler.git
+   git clone https://github.com/idonthav/IP-Crawler.git
    cd IP-Crawler
 
 2. Create a virtual environment (optional but recommended):
-  python -m venv venv
-  source venv/bin/activate    # macOS/Linux
-  venv\Scripts\activate       # Windows
+   ```bash
+   python -m venv venv
+   source venv/bin/activate    # macOS/Linux
+   venv\Scripts\activate       # Windows
 
-3. Install dependencies:
+4. Install dependencies:
    pip install -r requirements.txt
 
 ## 🏃 Usage
 Open the ip_crawler.py file and customize the target website or number of pages if needed.
-
+```bash
 Run the script:
 python ip_crawler.py
 
